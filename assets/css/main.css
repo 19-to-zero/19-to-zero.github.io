@@ -2485,14 +2485,14 @@ input, select, textarea {
   content: "\2212";
 }
 
-.content { 
+.collapsible-content { 
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   background-color: #FFFF;
 }
 
-.content .question {
+.collapsible-content .question {
 	background-color: #FFFF;
 	padding: 2em;
 }
