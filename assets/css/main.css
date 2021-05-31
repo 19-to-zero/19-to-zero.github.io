@@ -1929,6 +1929,8 @@ input, select, textarea {
 			button,
 			.button {
 				padding: 0;
+				padding-left: 0.5em;
+				padding-right: 0.5em;
 			}
 
 		}
@@ -2452,6 +2454,49 @@ input, select, textarea {
 	ul.alt li {
 		border-top-color: rgba(99, 116, 133, 0.25);
 	}
+
+/* Collapsible */
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-top: 1em;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content { 
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #FFFF;
+}
+
+.content .question {
+	background-color: #FFFF;
+	padding: 2em;
+}
+
 
 /* Actions */
 
@@ -3491,6 +3536,7 @@ input, select, textarea {
 		.wrapper.style2 {
 			background-color: #f5f8fa;
 			color: #637485;
+			padding: 1em 0 4em 0 ;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -4268,7 +4314,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 10em 0 4em;
+		padding: 10em 0 6em;
 	}
 
 		@media screen and (max-width: 736px) {
