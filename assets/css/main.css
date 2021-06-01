@@ -2542,6 +2542,7 @@ input, select, textarea {
 
 			.gallery {
 			  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+			  display: none;
 			}
 		}
 
@@ -4201,10 +4202,10 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background-image: -moz-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.5)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.5)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.5)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.1)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.1)), url("../../images/banner.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.1)), url("../../images/banner.jpg");
+		background-image: linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.1)), url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
