@@ -95,7 +95,7 @@
 
 
 				<!-- Footer -->
-					<footer id="footer">
+										<footer id="footer">
             <div class="inner">
               <div class="row">
                   <div class="col-4 col-12-medium social">
@@ -114,15 +114,29 @@
 							<a href="http://www.19tozero.ca"><img src="images/logo.png" id="footer-logo"></a>
 							<ul>
                 <li>&copy; 19 to Zero Inc. All rights reserved.</li>
-                <li><a href="about.html">About This Site</a></li>
-                <li><a href="about.html">Terms of Use</a></li>
+                <li><a href="#about" rel="modal:open">About This Site</a></li>
+                <li><a href="#terms" rel="modal:open">Terms of Use</a></li>
 						</div>
+
+					<div id="about" class="modal">
+						<h1>About This Website</h1>
+  					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus fringilla felis sit amet semper porttitor. Vestibulum condimentum magna sit amet dui dictum eleifend. Donec et ligula ullamcorper, egestas lorem sed, gravida leo. Etiam ultricies vehicula est quis aliquet. Quisque vel dolor iaculis, dapibus magna ac, facilisis augue. Morbi non enim condimentum, fermentum erat sollicitudin, vulputate neque. Quisque non porttitor ante, tincidunt finibus purus. Fusce eu nisi nec sapien vehicula lacinia. Nunc et malesuada est, in luctus risus. Donec feugiat sem ac ullamcorper laoreet. Aenean nec enim ut orci tristique consectetur nec vel augue. Etiam sit amet sapien ipsum. Proin pellentesque augue a nulla fringilla tempus.</p>
+  					<a href="#" rel="modal:close">Close</a>
+					</div>
+
+					<div id="terms" class="modal">
+						<h1>Terms of Use</h1>
+  					<p>The information on this site does not replace written law or professional medical advice, diagnosis, or treatment. It is intended to be a general summary for public use. If you have questions about a medical condition, always seek the advice of a doctor or other qualified health professional. 19 to Zero assumes no liability for the accuracy, reliability, completeness, currentness of the content, software, graphics, links or communications provided on or through use of the website.</p>
+  					<a href="#" rel="modal:close">Close</a>
+					</div>
+
 					</footer>
 
 			</div>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.modal.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
