@@ -2509,43 +2509,6 @@ input, select, textarea {
 		margin-bottom: 0.3em;
 	}
 
-	.gallery {
-	  display: grid;
-	  grid-gap: 2em;
-	  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	  padding-bottom: 4em;
-	}
-
-	.gallery img {
-	  width: 100%;
-	  object-fit: cover;
-	  box-shadow: 0 1em 2em rgba(0, 0, 0, 0.25);
-	}
-
-		@media screen and (max-width: 1680px) {
-
-			.gallery {
-			  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-			}
-
-		}
-
-		@media screen and (max-width: 920px) {
-
-			.gallery {
-			  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-			}
-
-		}
-
-		@media screen and (max-width: 700px) {
-
-			.gallery {
-			  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-			  display: none;
-			}
-		}
-
 	.search {
 		padding-top: 1em;
 		padding-bottom: 8.8em;
