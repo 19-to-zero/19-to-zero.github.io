@@ -9,7 +9,7 @@ function numberWithCommas(x) {
   $.getJSON(vaccinesAPI, {format: "json"})
     .done(function( data ) {
       $("#vaccines").text(numberWithCommas(data.summary[0]["cumulative_avaccine"]-data.summary[0]["cumulative_cvaccine"]));
-      console.log(data.summary[0]["cumulative_avaccine"])
+      console.log("More than " + data.summary[0]["cumulative_avaccine"] + " vaccines have been administered in Canada. Great!")
     })
     .fail(function( data ) {
       console.log("Failed")
