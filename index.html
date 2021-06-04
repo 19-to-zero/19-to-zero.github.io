@@ -84,13 +84,16 @@
                     <input type="text" name="query" id="query" value="" placeholder="Enter your postal code, city, or region" />
                   </div>
                   <div class="col-3 col-12-small">
-                    <input type="submit" value="Search" class="fit" onClick="javascript: window.open('https://www.google.com/maps/search/covid+vaccine+near+' + document.getElementById('query').value);"/>
+                    <input type="submit" value="Search" class="fit" onClick="javascript: window.open('https://www.google.com/maps/search/covid+vaccine+near+' + document.getElementById('query').value); ga('send', 'event', {'eventCategory':'vax search button', 'eventAction':'click','transport':'beacon'}); "/>
                   </div>
                 </div>
               </div>
 						
 						</div>
 					</section>
+
+
+					onclick="ga('send', 'event', {'eventCategory':'button', 'eventAction':'add2Cart','transport':'beacon'})"
 
 				<!-- One -->
 					<section id="one" class="wrapper style2">
