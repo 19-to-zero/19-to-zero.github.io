@@ -4289,6 +4289,17 @@ input, select, textarea {
 
 		}
 
+	.social-links li{
+		list-style-type: none; /* Remove bullets */
+		padding: 0; /* Remove padding */
+		margin: 0; /* Remove margins */
+	}
+
+	.social-links i{
+
+		margin-right: 1em;
+	}
+
 /* Footer */
 
 	#footer {
