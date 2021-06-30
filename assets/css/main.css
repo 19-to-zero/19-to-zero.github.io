@@ -2500,6 +2500,10 @@ input, select, textarea {
 
 /* Actions */
 
+	#search4vax {
+		margin-bottom: 8em;
+	}
+
 	#back {
 		margin-bottom: 4em;
 	}
@@ -2511,7 +2515,7 @@ input, select, textarea {
 
 	.search {
 		padding-top: 1em;
-		padding-bottom: 8.8em;
+		padding-bottom: 5.2em;
 	}
 
 		@media screen and (max-width: 1280px) {
@@ -4160,7 +4164,7 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-		}
+		}	
 
 /* Banner */
 
